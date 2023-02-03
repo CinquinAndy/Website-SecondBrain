@@ -17,10 +17,10 @@ export function Author() {
             <div className="absolute inset-x-0 bottom-0 top-1/2 text-slate-50/20 [mask-image:linear-gradient(transparent,white)]">
                 <GridPattern x="50%" y="100%"/>
             </div>
-            <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
-                <div className="bg-slate-50 pt-px sm:rounded-2xl">
+            <div className="relative mx-auto px-4 max-w-5xl pt-16 sm:px-6">
+                <div className="bg-slate-50 pt-px p-4 md:p-0 rounded-2xl">
                     <div
-                        className="relative mx-auto -mt-24 h-44 w-44 overflow-hidden rounded-full shadow-2xl md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-72 lg:w-72 bg-white/10">
+                        className="relative mx-auto -mt-24 h-52 w-52 overflow-hidden rounded-full shadow-2xl md:float-right md:mr-12 md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-72 lg:w-72 bg-white/10">
                         <Image
                             className="absolute inset-0 h-full w-full object-cover transform scale-50"
                             src={authorImage}
@@ -29,8 +29,8 @@ export function Author() {
                         />
                     </div>
                     <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-                        <p className="mt-8 text-5xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-                            <span className="block text-indigo-600 noto-serif font-black">Andy Cinquin –</span>
+                        <p className="mt-8 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+                            <span className="block text-indigo-600 noto-serif font-black text-4xl">Andy Cinquin –</span>
                             Hey ! Je suis l&apos;entrepreneur derrière ce site.
                         </p>
                         <p className="mt-4 text-lg tracking-tight text-slate-700">
@@ -42,8 +42,8 @@ export function Author() {
                             Je souhaite partager avec vous mes connaissances et mon expérience dans le domaine exceptionnel du développement.
                             Et le monde de la tech&apos;.
                         </p>
-                        <div className={"flex gap-8 flex-row items-center mt-8"}>
-                            <p className="mt-4">
+                        <div className={"flex gap-4 md:gap-8 flex-row items-center mt-8 flex-wrap"}>
+                            <p className="md:mt-4 w-full md:w-auto">
                                 <Link
                                     href="https://github.com/CinquinAndy" target={"_blank"} rel={"noreferrer"}
                                     className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
@@ -52,7 +52,7 @@ export function Author() {
                                     <span className="ml-4 hover:text-indigo-600">GitHub</span>
                                 </Link>
                             </p>
-                            <p className="mt-4">
+                            <p className="md:mt-4 w-full md:w-auto">
                                 <Link
                                     href="https://www.instagram.com/cinquin.andy/" target={"_blank"} rel={"noreferrer"}
                                     className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
@@ -61,7 +61,7 @@ export function Author() {
                                     <span className="ml-4 hover:text-indigo-600">Insta Pro</span>
                                 </Link>
                             </p>
-                            <p className="mt-4">
+                            <p className="md:mt-4 w-full md:w-auto">
                                 <Link
                                     href="https://www.linkedin.com/in/andy-cinquin/" target={"_blank"} rel={"noreferrer"}
                                     className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
@@ -70,7 +70,7 @@ export function Author() {
                                     <span className="ml-4 hover:text-indigo-600">LinkedIn</span>
                                 </Link>
                             </p>
-                            <p className="mt-4">
+                            <p className="md:mt-4 w-full md:w-auto">
                                 <Link
                                     href="https://www.malt.fr/profile/andycinquin" target={"_blank"} rel={"noreferrer"}
                                     className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"

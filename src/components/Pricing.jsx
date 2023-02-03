@@ -12,7 +12,7 @@ function Plan({name, description, price, features, href, featured}) {
         <div
             className={clsx(
                 'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 lg:px-12',
-                featured && 'bg-indigo-900 sm:shadow-lg'
+                featured && 'bg-indigo-900 sm:shadow-lg rounded-lg'
             )}
         >
             {featured && (
@@ -96,11 +96,11 @@ export function Pricing() {
         <section
             id="pricing"
             aria-labelledby="pricing-title"
-            className="scroll-mt-14 pt-16 pb-8 sm:scroll-mt-32 sm:pt-20 sm:pb-10 lg:pt-32 lg:pb-16 relative"
+            className="scroll-mt-14 pt-16 pb-72 sm:scroll-mt-32 sm:pt-20 sm:pb-32 lg:pt-32 relative"
         >
             <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden -z-20">
                 <Image
-                    className="absolute top-0 left-0 translate-y-[10%] translate-x-[-55%] -scale-x-100 sm:left-1/2
+                    className="absolute top-0 left-0 translate-y-[45%] translate-x-[-55%] -scale-x-100 sm:left-1/2
                     sm:translate-y-[25%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
                     src={backgroundImage}
                     alt=""
@@ -113,15 +113,15 @@ export function Pricing() {
                 <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]"/>
             </div>
             <Container>
-                <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-50 sm:text-6xl">
+                <p className="mt-8 font-display text-3xl font-extrabold tracking-tight text-slate-50 sm:text-6xl">
                     Choisissez votre formule
                 </p>
                 <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-200">
                     Je vous propose 2 formules complètement différentes, pour vous permettre de choisir celle qui vous convient le mieux.
                 </p>
             </Container>
-            <div className="mx-auto mt-16 max-w-5xl lg:px-6">
-                <div className="grid bg-white/5 rounded-2xl sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
+            <div className="mx-auto px-2 mt-16 max-w-5xl lg:px-6">
+                <div className="grid bg-white/5  rounded-2xl pb-6 px-6 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
                     <Plan
                         name="Accès à mon second cerveau"
                         description="Parfait pour se former en informatique. Pour ceux qui ne savent pas par où commencer. Vous aurez accès à toutes mes connaissances !"
