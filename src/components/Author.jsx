@@ -3,16 +3,10 @@ import Link from 'next/link'
 
 import {GridPattern} from '@/components/GridPattern'
 import authorImage from '@/images/LogoCinquinAndy.svg'
-
-function TwitterIcon(props) {
-    return (
-        <svg aria-hidden="true" viewBox="0 0 40 40" {...props}>
-            <path
-                d="M13.817 33.753c12.579 0 19.459-10.422 19.459-19.458 0-.297 0-.592-.02-.884a13.913 13.913 0 0 0 3.411-3.543 13.65 13.65 0 0 1-3.928 1.077 6.864 6.864 0 0 0 3.007-3.784 13.707 13.707 0 0 1-4.342 1.66 6.845 6.845 0 0 0-11.655 6.239A19.417 19.417 0 0 1 5.654 7.915a6.843 6.843 0 0 0 2.117 9.128 6.786 6.786 0 0 1-3.104-.853v.086a6.842 6.842 0 0 0 5.487 6.704 6.825 6.825 0 0 1-3.088.116 6.847 6.847 0 0 0 6.39 4.75A13.721 13.721 0 0 1 3.334 30.68a19.36 19.36 0 0 0 10.483 3.066"/>
-        </svg>
-    )
-}
-
+import {GitHubIcon} from "@/components/social-media/GitHub";
+import {InstagramIcon} from "@/components/social-media/Instagram";
+import {LinkedinIcon} from "@/components/social-media/Linkedin";
+import {MaltIcon} from "@/components/social-media/Malt";
 export function Author() {
     return (
         <section
@@ -48,15 +42,45 @@ export function Author() {
                             Je souhaite partager avec vous mes connaissances et mon expérience dans le domaine exceptionnel du développement.
                             Et le monde de la tech&apos;.
                         </p>
-                        <p className="mt-8">
-                            <Link
-                                href="mailto:contact@andy-cinquin.fr"
-                                className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
-                            >
-                                <TwitterIcon className="h-10 w-10 fill-current"/>
-                                <span className="ml-4"></span>
-                            </Link>
-                        </p>
+                        <div className={"flex gap-8 flex-row items-center mt-8"}>
+                            <p className="mt-4">
+                                <Link
+                                    href="https://github.com/CinquinAndy" target={"_blank"} rel={"noreferrer"}
+                                    className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                >
+                                    <GitHubIcon className="h-6 w-6 fill-current"/>
+                                    <span className="ml-4 hover:text-indigo-600">GitHub</span>
+                                </Link>
+                            </p>
+                            <p className="mt-4">
+                                <Link
+                                    href="https://www.instagram.com/cinquin.andy/" target={"_blank"} rel={"noreferrer"}
+                                    className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                >
+                                    <InstagramIcon className="h-6 w-6 fill-current"/>
+                                    <span className="ml-4 hover:text-indigo-600">Insta Pro</span>
+                                </Link>
+                            </p>
+                            <p className="mt-4">
+                                <Link
+                                    href="https://www.linkedin.com/in/andy-cinquin/" target={"_blank"} rel={"noreferrer"}
+                                    className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                >
+                                    <LinkedinIcon className="h-6 w-6 fill-current"/>
+                                    <span className="ml-4 hover:text-indigo-600">LinkedIn</span>
+                                </Link>
+                            </p>
+                            <p className="mt-4">
+                                <Link
+                                    href="https://www.malt.fr/profile/andycinquin" target={"_blank"} rel={"noreferrer"}
+                                    className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                >
+                                    <MaltIcon className="h-6 w-6 fill-current"/>
+                                    <span className="ml-4 hover:text-indigo-600">Malt</span>
+                                </Link>
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>

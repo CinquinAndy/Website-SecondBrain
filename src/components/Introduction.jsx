@@ -14,7 +14,7 @@ export function Introduction() {
             <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden -z-10">
                 <Image
                     className="absolute top-0 right-0 translate-y-[10%] translate-x-[-55%] scale-x-100 sm:right-1/2
-                    sm:translate-y-[6%] sm:translate-x-[98%] lg:translate-x-[106%] xl:translate-x-[122%]"
+                    sm:translate-y-[25%] sm:translate-x-[98%] lg:translate-x-[106%] xl:translate-x-[122%]"
                     src={backgroundImage}
                     alt=""
                     width={918}

@@ -4,6 +4,8 @@ import {Button} from '@/components/Button'
 import {CheckIcon} from '@/components/CheckIcon'
 import {Container} from '@/components/Container'
 import {GridPattern} from '@/components/GridPattern'
+import Image from "next/image";
+import backgroundImage from "@/images/background_4.jpg";
 
 function Plan({name, description, price, features, href, featured}) {
     return (
@@ -94,8 +96,22 @@ export function Pricing() {
         <section
             id="pricing"
             aria-labelledby="pricing-title"
-            className="scroll-mt-14 pt-16 pb-8 sm:scroll-mt-32 sm:pt-20 sm:pb-10 lg:pt-32 lg:pb-16"
+            className="scroll-mt-14 pt-16 pb-8 sm:scroll-mt-32 sm:pt-20 sm:pb-10 lg:pt-32 lg:pb-16 relative"
         >
+            <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden -z-20">
+                <Image
+                    className="absolute top-0 left-0 translate-y-[10%] translate-x-[-55%] -scale-x-100 sm:left-1/2
+                    sm:translate-y-[25%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
+                    src={backgroundImage}
+                    alt=""
+                    width={918}
+                    height={1495}
+                    priority
+                    unoptimized
+                />
+                <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b070f]"/>
+                <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]"/>
+            </div>
             <Container>
                 <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-50 sm:text-6xl">
                     Choisissez votre formule
@@ -108,7 +124,7 @@ export function Pricing() {
                 <div className="grid bg-white/5 rounded-2xl sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
                     <Plan
                         name="Accès à mon second cerveau"
-                        description="Parfait pour ceux qui veulent se former. Mais qui ne savent pas par où commencer. Débutant ou confirmé, vous trouverez votre bonheur."
+                        description="Parfait pour se former en informatique. Pour ceux qui ne savent pas par où commencer. Vous aurez accès à toutes mes connaissances !"
                         price={4.99}
                         href="mailto:contact@andy-cinquin.fr"
                         features={[
