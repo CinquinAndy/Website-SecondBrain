@@ -1,18 +1,33 @@
 import Link from 'next/link'
 
 import {Container} from '@/components/Container'
+import Image from "next/image";
+import backgroundImage from "@/images/background_4.jpg";
 
 export function Introduction() {
     return (
         <section
             id="introduction"
             aria-label="Introduction"
-            className="pt-20 pb-16 sm:pb-20 md:pt-36 lg:py-32"
+            className="pt-20 pb-16 sm:pb-20 md:pt-36 lg:py-32 relative "
         >
+            <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden -z-10">
+                <Image
+                    className="absolute top-0 right-0 translate-y-[10%] translate-x-[-55%] scale-x-100 sm:right-1/2
+                    sm:translate-y-[6%] sm:translate-x-[98%] lg:translate-x-[106%] xl:translate-x-[122%]"
+                    src={backgroundImage}
+                    alt=""
+                    width={918}
+                    height={1495}
+                    priority
+                    unoptimized
+                />
+                <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b070f]"/>
+                <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]"/>
+            </div>
             <Container className="text-lg tracking-tight text-slate-200">
                 <p className="font-display text-4xl font-bold tracking-tight text-slate-100">
                     Combien de fois avez-vous essayé de vous rappeler une information importante et constaté qu&apos;elle vous échappait ?
-
                 </p>
                 <p className="mt-10">
                     Combien de fois avez-vous eu du mal à vous souvenir d&apos;une seule chose utile d&apos;un livre ou d&apos;un article que vous avez lu ?
