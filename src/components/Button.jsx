@@ -8,21 +8,21 @@ const baseStyles = {
 
 
 export function Button({
-                         variant = 'solid',
-                         className,
-                         href,
-                         ...props
+                           variant = 'solid',
+                           className,
+                           href,
+                           ...props
                        }) {
-  className = clsx(
-      baseStyles[variant],
-      className
-  )
+    className = clsx(
+        baseStyles[variant],
+        className
+    )
 
-  return href ? (
-      <Link href={href} className={className} {...props} />
-  ) : (
-      <button className={className} {...props} />
-  )
+    return href ? (
+        <Link href={href} className={className} {...props} />
+    ) : (
+        <button className={className} {...props} />
+    )
 }
 
 

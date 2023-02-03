@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { Button } from '@/components/Button'
+import {Button} from '@/components/Button'
 import coverImage from '@/images/cover-res-3.png'
 
 import backgroundImage from '@/images/background_4.jpg'
@@ -19,13 +19,13 @@ export function Hero() {
                     priority
                     unoptimized
                 />
-                <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b070f]" />
-                <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]" />
+                <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b070f]"/>
+                <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]"/>
             </div>
             <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 lg:grid-cols-12 lg:gap-y-20 lg:px-3 py-10">
                 <div className="relative flex items-start lg:col-span-5 lg:row-span-2">
                     <div className="relative z-10 mx-auto flex w-64 rounded-xl shadow-xl md:w-80 lg:w-auto">
-                        <Image className="w-full" src={coverImage} alt="" priority />
+                        <Image className="w-full" src={coverImage} alt="" priority/>
                     </div>
                 </div>
 
