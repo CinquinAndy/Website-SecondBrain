@@ -46,8 +46,8 @@ export function Author() {
                             </p>
                             <div className={"flex gap-4 md:gap-8 flex-row items-center mt-8 flex-wrap"}>
                                 <p className="md:mt-4 w-full md:w-auto">
-                                    <Link
-                                        href="https://github.com/CinquinAndy" target={"_blank"} rel={"noreferrer"}
+                                    <Link id={"btn-githubicon"}
+                                        href="https://github.com/CinquinAndy" target={"_blank"} rel={"noopener noreferrer"}
                                         className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <GitHubIcon className="h-6 w-6 fill-current"/>
@@ -55,8 +55,8 @@ export function Author() {
                                     </Link>
                                 </p>
                                 <p className="md:mt-4 w-full md:w-auto">
-                                    <Link
-                                        href="https://www.instagram.com/cinquin.andy/" target={"_blank"} rel={"noreferrer"}
+                                    <Link id={"btn-instagramicon"}
+                                        href="https://www.instagram.com/cinquin.andy/" target={"_blank"} rel={"noopener noreferrer"}
                                         className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <InstagramIcon className="h-6 w-6 fill-current"/>
@@ -64,8 +64,8 @@ export function Author() {
                                     </Link>
                                 </p>
                                 <p className="md:mt-4 w-full md:w-auto">
-                                    <Link
-                                        href="https://www.linkedin.com/in/andy-cinquin/" target={"_blank"} rel={"noreferrer"}
+                                    <Link id={"btn-linkedinicon"}
+                                        href="https://www.linkedin.com/in/andy-cinquin/" target={"_blank"} rel={"noopener noreferrer"}
                                         className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <LinkedinIcon className="h-6 w-6 fill-current"/>
@@ -73,8 +73,8 @@ export function Author() {
                                     </Link>
                                 </p>
                                 <p className="md:mt-4 w-full md:w-auto">
-                                    <Link
-                                        href="https://www.malt.fr/profile/andycinquin" target={"_blank"} rel={"noreferrer"}
+                                    <Link id={"btn-malticon"}
+                                        href="https://www.malt.fr/profile/andycinquin" target={"_blank"} rel={"noopener noreferrer"}
                                         className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <MaltIcon className="h-6 w-6 fill-current"/>

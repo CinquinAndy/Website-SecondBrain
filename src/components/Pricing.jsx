@@ -79,11 +79,13 @@ function Plan({name, description, price, features, href, featured}) {
                             ))}
                         </ul>
                     </div>
-                    <Button
+
+
+                    <Button id={`btn-plan-${name.toLowerCase().replaceAll(' ', '-').replaceAll('é', 'e').replaceAll('è','e').replaceAll('à', 'a')}`}
                         href={href}
                         color={featured ? 'white' : 'slate'}
                         className="mt-8"
-                        aria-label={`Get started with the ${name} plan for $${price}`}
+                        aria-label={`Commencer avec le plan ${name} pour ${price}€ !`}
                     >
                         Ça m&apos;intéresse
                     </Button>

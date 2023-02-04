@@ -48,10 +48,10 @@ export function Hero() {
                                 dans le monde de la {"tech'"} et du développement.
                             </p>
                             <div className="mt-12 flex gap-4">
-                                <Button href="mailto:contact@andy-cinquin.fr">
+                                <Button id="btn-accedersecondcerveau" href="mailto:contact@andy-cinquin.fr">
                                     Accéder à mon second cerveau
                                 </Button>
-                                <Button href="mailto:contact@andy-cinquin.fr" variant="outline">
+                                <Button id="btn-fairelevotre" href="mailto:contact@andy-cinquin.fr" variant="outline">
                                     Faire le votre
                                 </Button>
                             </div>
