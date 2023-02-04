@@ -23,8 +23,15 @@ export function Introduction() {
                         priority
                         unoptimized
                     />
-                    <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b070f]"/>
                     <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]"/>
+                    <div
+                        className={"absolute w-[918px] h-[1495px] top-0 right-0 translate-y-[45%] translate-x-[-55%] scale-x-100 sm:right-1/2 " +
+                            "sm:translate-y-[25%] sm:translate-x-[98%] lg:translate-x-[106%] xl:translate-x-[122%]"}>
+                        <div className={"w-full h-full relative"}>
+                            <div className="absolute inset-x-0 top-0 left-0 h-full w-32 bg-gradient-to-r from-[#0b070f]"/>
+                            <div className="absolute inset-x-0 top-0 left-0 h-32 w-full bg-gradient-to-b from-[#0b070f]"/>
+                        </div>
+                    </div>
                 </div>
                 <Container className="text-lg tracking-tight text-slate-200">
                     <p className="font-display text-3xl md:text-4xl font-bold tracking-tight text-slate-100">

@@ -112,8 +112,15 @@ export function Pricing() {
                         priority
                         unoptimized
                     />
-                    <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b070f]"/>
                     <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]"/>
+                    <div
+                        className={"absolute w-[918px] h-[1495px] top-0 left-0 translate-y-[45%] translate-x-[-55%] " +
+                            "-scale-x-100 sm:left-1/2 sm:translate-y-[25%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]"}>
+                        <div className={"w-full h-full relative"}>
+                            <div className="absolute inset-x-0 top-0 right-0 h-full w-32 bg-gradient-to-r from-[#0b070f]"/>
+                            <div className="absolute inset-x-0 top-0 left-0 h-32 w-full bg-gradient-to-b from-[#0b070f]"/>
+                        </div>
+                    </div>
                 </div>
                 <Container>
                     <p className="mt-8 font-display text-3xl font-extrabold tracking-tight text-slate-50 sm:text-6xl">

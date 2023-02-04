@@ -22,6 +22,12 @@ export function Hero() {
                     />
                     <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b070f]"/>
                     <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b070f]"/>
+                    <div className={"absolute w-[918px] h-[1495px] top-0 left-0 translate-y-[-10%] translate-x-[-55%] -scale-x-100 sm:left-1/2 " +
+                        "sm:translate-y-[-6%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]"}>
+                        <div className={"w-full h-full relative"}>
+                            <div className="absolute inset-x-0 top-0 right-0 h-full w-10 bg-gradient-to-r from-[#0b070f]"/>
+                        </div>
+                    </div>
                 </div>
                 <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 lg:grid-cols-12 lg:gap-y-20 lg:px-3 py-10">
                     <div className="relative flex items-start lg:col-span-5 lg:row-span-2">
