@@ -8,5 +8,7 @@ const styles = {
 }
 
 export function Container({size = 'sm', className, ...props}) {
-    return <div className={clsx(styles[size], className)} {...props} />
+    return <>
+        <div className={clsx(styles[size], className)} {...props} />
+    </>
 }
