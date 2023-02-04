@@ -1,0 +1,8 @@
+.vscode
+.idea
+.next
+node_modules
+.env-exemple
+.env
+cypress
+cypress.config.ts
