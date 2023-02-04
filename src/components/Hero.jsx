@@ -8,7 +8,7 @@ import backgroundImage from '@/images/background_4.jpg'
 export function Hero() {
     return (
         <>
-            <header className="relative bg-[#0b070f]">
+            <header className="relative bg-[#0b070f]" id={"hero"}>
                 <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden">
                     <Image
                         className="absolute top-0 left-0 translate-y-[-10%] translate-x-[-55%] -scale-x-100 sm:left-1/2

@@ -4,7 +4,7 @@ import {Logo} from '@/components/Logo'
 export function Footer() {
     return (
         <>
-            <footer className="py-16">
+            <footer className="py-16" id="footer">
                 <Container size={"md"} className="flex flex-col items-center justify-between md:flex-row">
                     <Logo className="h-12 w-auto text-slate-900"/>
                     <div className={"flex flex-col"}>

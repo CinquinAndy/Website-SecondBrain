@@ -72,7 +72,7 @@ export function Introduction() {
                     </p>
 
                     <p className="mt-10">
-                        <Link id={"cta"}
+                        <Link id={"btn-cta"}
                             href="mailto:contact@andy-cinquin.fr"
                             className="text-base font-medium text-blue-400 hover:text-blue-500"
                         >
