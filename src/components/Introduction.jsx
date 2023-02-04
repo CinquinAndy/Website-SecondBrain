@@ -17,7 +17,7 @@ export function Introduction() {
                         className="absolute top-0 right-0 translate-y-[45%] translate-x-[-55%] scale-x-100 sm:right-1/2
                     sm:translate-y-[25%] sm:translate-x-[98%] lg:translate-x-[106%] xl:translate-x-[122%]"
                         src={backgroundImage}
-                        alt=""
+                        alt="Mon second cerveau"
                         width={918}
                         height={1495}
                         priority
