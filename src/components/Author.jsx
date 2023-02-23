@@ -36,9 +36,8 @@ export function Author() {
                                 Hey ! Je suis l&apos;entrepreneur derrière ce site.
                             </p>
                             <p className="mt-4 text-lg tracking-tight text-slate-700">
-                                CEO de la start-up ForMenu, Co-fondateur de la plateforme e-commerce Artriste, Co-fondateur du SaaS ToolHive,
-                                Freelance depuis {new Date().getFullYear() - 2020} ans, et développeur chez Infotel, je suis un
-                                développeur passionné et entrepreneur depuis plusieurs années.
+                                CEO de la start-up ForMenu.io, Co-fondateur de la plateforme e-commerce Artriste.cc, SaaS Makers,
+                                Freelance depuis {new Date().getFullYear() - 2020} ans, je suis un développeur passionné et entrepreneur depuis plusieurs années.
                             </p>
                             <p className="mt-4 text-lg tracking-tight text-slate-700">
                                 Je souhaite partager avec vous mes connaissances et mon expérience dans le domaine exceptionnel du développement.
@@ -47,8 +46,8 @@ export function Author() {
                             <div className={"flex gap-4 md:gap-8 flex-row items-center mt-8 flex-wrap"}>
                                 <p className="md:mt-4 w-full md:w-auto">
                                     <Link id={"btn-githubicon"}
-                                        href="https://github.com/CinquinAndy" target={"_blank"} rel={"noopener noreferrer"}
-                                        className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                          href="https://github.com/CinquinAndy" target={"_blank"} rel={"noopener noreferrer"}
+                                          className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <GitHubIcon className="h-6 w-6 fill-current"/>
                                         <span className="ml-4 hover:text-indigo-600">GitHub</span>
@@ -56,8 +55,8 @@ export function Author() {
                                 </p>
                                 <p className="md:mt-4 w-full md:w-auto">
                                     <Link id={"btn-instagramicon"}
-                                        href="https://www.instagram.com/cinquin.andy/" target={"_blank"} rel={"noopener noreferrer"}
-                                        className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                          href="https://www.instagram.com/cinquin.andy/" target={"_blank"} rel={"noopener noreferrer"}
+                                          className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <InstagramIcon className="h-6 w-6 fill-current"/>
                                         <span className="ml-4 hover:text-indigo-600">Insta Pro</span>
@@ -65,8 +64,8 @@ export function Author() {
                                 </p>
                                 <p className="md:mt-4 w-full md:w-auto">
                                     <Link id={"btn-linkedinicon"}
-                                        href="https://www.linkedin.com/in/andy-cinquin/" target={"_blank"} rel={"noopener noreferrer"}
-                                        className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                          href="https://www.linkedin.com/in/andy-cinquin/" target={"_blank"} rel={"noopener noreferrer"}
+                                          className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <LinkedinIcon className="h-6 w-6 fill-current"/>
                                         <span className="ml-4 hover:text-indigo-600">LinkedIn</span>
@@ -74,8 +73,8 @@ export function Author() {
                                 </p>
                                 <p className="md:mt-4 w-full md:w-auto">
                                     <Link id={"btn-malticon"}
-                                        href="https://www.malt.fr/profile/andycinquin" target={"_blank"} rel={"noopener noreferrer"}
-                                        className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
+                                          href="https://www.malt.fr/profile/andycinquin" target={"_blank"} rel={"noopener noreferrer"}
+                                          className="inline-flex items-center text-base font-medium tracking-tight text-indigo-500"
                                     >
                                         <MaltIcon className="h-6 w-6 fill-current"/>
                                         <span className="ml-4 hover:text-indigo-600">Malt</span>

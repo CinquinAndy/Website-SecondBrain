@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
 import {Button} from '@/components/Button'
-import coverImage from '@/images/cover-res-3.png'
+import coverImage from '@/images/cover-res-3.webp'
 
-import backgroundImage from '@/images/background_4.jpg'
+import backgroundImage from '@/images/background_4.webp'
 
 export function Hero() {
     return (

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import {Container} from '@/components/Container'
 import Image from "next/image";
-import backgroundImage from "@/images/background_4.jpg";
+import backgroundImage from "@/images/background_4.webp";
 
 export function Introduction() {
     return (

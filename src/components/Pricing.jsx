@@ -5,7 +5,7 @@ import {CheckIcon} from '@/components/CheckIcon'
 import {Container} from '@/components/Container'
 import {GridPattern} from '@/components/GridPattern'
 import Image from "next/image";
-import backgroundImage from "@/images/background_4.jpg";
+import backgroundImage from "@/images/background_4.webp";
 
 function Plan({name, description, price, features, href, featured}) {
     return (
