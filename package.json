@@ -33,7 +33,7 @@
     "@percy/cypress": "3.1.2",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
-    "prettier": "2.8.7",
+    "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.2.7"
   }
 }
