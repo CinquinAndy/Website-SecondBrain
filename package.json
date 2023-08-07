@@ -12,14 +12,14 @@
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@headlessui/react": "1.7.16",
-    "@next/font": "13.4.12",
+    "@next/font": "13.4.13",
     "@types/node": "18.17.3",
     "@types/react": "18.2.17",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "clsx": "1.2.1",
     "focus-visible": "5.2.0",
-    "next": "13.4.12",
+    "next": "13.4.13",
     "postcss-focus-visible": "8.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -32,7 +32,7 @@
     "@percy/cli": "1.26.3",
     "@percy/cypress": "3.1.2",
     "eslint": "8.46.0",
-    "eslint-config-next": "13.4.12",
+    "eslint-config-next": "13.4.13",
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.2.7"
   }
