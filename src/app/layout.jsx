@@ -1,9 +1,8 @@
-import {Be_Vietnam_Pro, Noto_Serif_Display} from '@next/font/google'
-
 import '@/styles/tailwind.css'
 
 import {Footer} from '@/components/Footer'
 import {Header} from '@/components/Header'
+import Script from "next/script";
 
 export default function RootLayout({
                                        children,
@@ -25,11 +24,11 @@ export default function RootLayout({
             />
         </head>
         <Script
-				async
-				src="https://umami.wadefade.fr/script.js"
-				strategy={'afterInteractive'}
-				data-website-id="3fc369c1-7f05-47e4-baaa-85eb44808024"
-			/>
+            async
+            src="https://umami.wadefade.fr/script.js"
+            strategy={'afterInteractive'}
+            data-website-id="3fc369c1-7f05-47e4-baaa-85eb44808024"
+        />
         <body className={"bg-[#0b070f]"}>
         <Header/>
         {children}
