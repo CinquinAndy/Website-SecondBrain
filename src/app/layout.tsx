@@ -24,6 +24,12 @@ export default function RootLayout({
                 J'ai décidé de les rassembler dans un seul outil. Et de vous donner la possibilité d'y accéder !"
             />
         </head>
+        <Script
+				async
+				src="https://umami.wadefade.fr/script.js"
+				strategy={'afterInteractive'}
+				data-website-id="3fc369c1-7f05-47e4-baaa-85eb44808024"
+			/>
         <body className={"bg-[#0b070f]"}>
         <Header/>
         {children}
