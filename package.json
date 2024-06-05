@@ -13,7 +13,7 @@
   "dependencies": {
     "@headlessui/react": "1.7.19",
     "@next/font": "14.2.3",
-    "@types/node": "20.14.1",
+    "@types/node": "20.14.2",
     "@types/react": "18.2.63",
     "@types/react-dom": "18.2.20",
     "autoprefixer": "10.4.19",
