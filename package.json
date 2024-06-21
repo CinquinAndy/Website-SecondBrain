@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@tailwindcss/forms": "0.5.7",
-    "@tailwindcss/typography": "0.5.10",
+    "@tailwindcss/typography": "0.5.13",
     "@percy/cli": "1.28.8",
     "@percy/cypress": "3.1.2",
     "autoprefixer": "10.4.19",
