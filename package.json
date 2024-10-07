@@ -29,7 +29,7 @@
     "sharp": "0.33.5",
     "@tailwindcss/forms": "0.5.7",
     "@tailwindcss/typography": "0.5.14",
-    "@percy/cli": "1.29.4",
+    "@percy/cli": "1.30.0",
     "@percy/cypress": "3.1.2",
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
