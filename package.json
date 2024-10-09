@@ -14,7 +14,7 @@
     "@headlessui/react": "2.1.9",
     "@next/font": "14.2.15",
     "@types/node": "22.7.5",
-    "@types/react": "18.3.4",
+    "@types/react": "18.3.11",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.20",
     "clsx": "2.1.1",
