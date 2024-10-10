@@ -11,7 +11,7 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
-    "@headlessui/react": "2.1.9",
+    "@headlessui/react": "2.1.10",
     "@next/font": "14.2.15",
     "@types/node": "22.7.5",
     "@types/react": "18.3.4",
