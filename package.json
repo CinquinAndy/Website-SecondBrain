@@ -32,7 +32,7 @@
     "@percy/cli": "1.31.8",
     "@percy/cypress": "3.1.7",
     "autoprefixer": "10.4.23",
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "eslint-config-next": "14.2.35",
     "eslint-config-prettier": "9.1.2",
     "prettier": "3.8.0",
