@@ -17,7 +17,7 @@
     "@percy/cypress": "3.1.9",
     "@tailwindcss/forms": "0.5.11",
     "@tailwindcss/typography": "0.5.19",
-    "@types/node": "22.8.2",
+    "@types/node": "22.20.1",
     "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.5.3",
